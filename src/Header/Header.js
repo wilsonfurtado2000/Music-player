@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../ContextApi/StateProvider";
 import { Avatar } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import { useEffect } from "react";
